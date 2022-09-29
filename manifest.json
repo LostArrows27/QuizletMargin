@@ -6,6 +6,7 @@
     "content_scripts": [
         {
             "js": ["margin.js"],
+            "css": ["effect.css"],
             "matches": ["https://quizlet.com/*/flashcards"]
         }
     ],
